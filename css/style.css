@@ -7,12 +7,27 @@
 }
 
 header{
-    position: relative;
+    display: flex;
+    justify-content: flex-end;
     background-color: #222222;
     width: 100%;
     height: 100px;
     left: 0px;
     top: 0px;
+}
+
+.navbar ul{
+    width: 284px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar ul li{
+    margin-right: 13px;
+    margin-top: 40px;
 }
 
 .logo{  
@@ -46,50 +61,62 @@ span{
     line-height: 28px;
 }
 
+
 .sinStyle{
     color: white;
     text-decoration: none;
 }
 
-.ul-bar{
-    /* position: absolute; */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style:none;
-    text-decoration: none;
-    color: white;
-    display: flex;
-    width: 380px;
-    
-}
-
 nav{
-    position: relative;
-    left: 75%;
-    top: 43px;   
+    display: flex;
+    justify-content: flex-end;
+
 }
 
-
-.podio2{
-    position: absolute;
-    /* display: flex;
-    justify-content: space-around; */
-    width: 491px;
-    height: 350px;
-    left: 514px;
-    top: 135px;
-    background-color: #FFFFFF;
-    border-radius: 5px;
-}
-
-h2 {
-    position:absolute;
-    color: #FC200C;
+.ul-bar{
+    list-style-type: none;
+    align-items: stretch;
 }
 
 .mainFont{
-    position: relative;
-    display:flex;
-    align-items: center;
+    /* position: relative; */
+    display: flex;
+    height: 410px;
+    background-color: #e4e4e4;
+    justify-content: center;
+    
+}
+
+.domicilio {
+    align-self: center;
+    display: flex;
+    background-image: url(../img/delivery.jpg);
+    width: 491px;
+    height: 350px;
+}
+
+
+.podio2{ 
+    width: 491px;
+    height: 350px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    align-self: center;
+}
+
+
+h2 {
+    color: #FC200C;
+    padding: 20px;
+    font-weight: 900;
+}
+
+
+.soyTituloPeque{
+ 
+
+}
+
+footer{
+    background-color: #222222;  
 }
