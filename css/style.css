@@ -1,43 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&family=Marvel:wght@700&family=Roboto:wght@300;400;500&display=swap');
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 header{
-    position: absolute;
+    position: relative;
     background-color: #222222;
-    width: 1024px;
+    width: 100%;
     height: 100px;
     left: 0px;
     top: 0px;
 }
 
-.logo{
-   
+.logo{  
     position: absolute;
     width: 92px;
     height: 80px;
     left: 20px;
     top:10px;
 }
+
 .pizza{
     color:#39B24A;   
 }
-
 span{
     color: white;   
 }
 .front{
     color: #FC200C;   
 }
+
 .pizzaAndFront{
     position: absolute;
     width: 132px;
     height: 28px;
     left: 122px;
-    top: 36px;
+    top: 28px;
     font-family:'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -45,27 +46,50 @@ span{
     line-height: 28px;
 }
 
-.nav-bar{
-display: flex;
+.sinStyle{
     color: white;
-    
+    text-decoration: none;
 }
 
 .ul-bar{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     list-style:none;
-    position:absolute;
-    width: 44px;
-    height: 19px;
-    left: 720px;
-    top: 40px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    width: 380px;
+    
 }
+
+nav{
+    position: relative;
+    left: 75%;
+    top: 43px;   
+}
+
 
 .podio2{
     position: absolute;
+    /* display: flex;
+    justify-content: space-around; */
     width: 491px;
     height: 350px;
     left: 514px;
     top: 135px;
     background-color: #FFFFFF;
     border-radius: 5px;
+}
+
+h2 {
+    position:absolute;
+    color: #FC200C;
+}
+
+.mainFont{
+    position: relative;
+    display:flex;
+    align-items: center;
 }
