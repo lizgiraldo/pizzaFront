@@ -52,7 +52,7 @@ span{
     position: absolute;
     width: 132px;
     height: 28px;
-    left: 122px;
+    left: 109px;
     top: 28px;
     font-family:'Roboto', sans-serif;
     font-style: normal;
@@ -132,9 +132,28 @@ h2 {
     font-weight: 900;
 }
 
-
-
-
 footer{
-    background-color: #222222;  
+    background-color: #222222;
+    height: 150px;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.logoFooter{
+    text-align: center;
+    display: flex;
+    position: absolute;
+    width: 92px;
+    height: 80px;
+    top:530px;
+    right: 179px;
+    
+    
+}
+
+.nav-footer{
+    margin-top: 18px;
+    padding-left: 24px;
+    line-height: 28px;
+    font-size: 14px;
 }
